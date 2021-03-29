@@ -5,12 +5,15 @@ head{
 }
 
 h1{
+    padding: 5px;
+    text-align: center;
     font-size: 30px;
     font-weight: normal;
     margin: 0;
 }
 
-#main_container{
-    text-align: left;
+#main{
+    width: 200px;
+    height: 200px;
 }
 
