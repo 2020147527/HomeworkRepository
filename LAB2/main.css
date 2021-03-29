@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+head{
+    background-color: burlywood;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#main_container{
+    text-align: left;
+}
+
