@@ -5,7 +5,7 @@ h1{
     font-weight: normal;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
-    color: red;
+    color: rgb(238, 224, 25);
 }
 
 body{
@@ -13,9 +13,17 @@ body{
     background-color: burlywood;
 }
 
-.main{
+main{
     width: 200px;
     height: 200px;
     background-color: rgb(196, 202, 255);
+}
+
+signupbutton{
+    background-color: brown;
+}
+
+loginbutton{
+    background-color: blue;
 }
 
