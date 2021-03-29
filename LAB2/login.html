@@ -2,7 +2,7 @@
    <head>
       <meta charset = "utf-8">
       <title> 로그인 페이지 </title>
-      <link rel = "stylesheet" type = "test/css" href = "main.css"/>
+      <link href = "main.css" rel = "stylesheet" type = "test/css" ></link>
    </head>
 
    <body>
@@ -17,28 +17,27 @@
          </nav>
        </div>
      </header>
+     
      <div class = 'main'>
      <form method = "get">
      <p> 회원정보 (필수)
-        <p><label> 유저 아이디 :<input name = "userID" type = "text" size = 25 placeholder = "아이디를 입력하세요" required autocomplete="userID" autofocus/></label></p>
+        <p><label> 아이디 :<input name = "userID" type = "text" size = 25 placeholder = "아이디를 입력하세요" required autocomplete="userID" autofocus/></label></p>
         <p><label> 비밀번호 :<input name = "userPW" type = "text" size = 25 placeholder = "비밀번호를 입력하세요" required autocomplete="userPW" autofocus/></label></p>
-        <p><label> 비밀번호 확인 :<input name = "re_userPW" type = "text" size = 25 placeholder = "비밀번호를 다시 입력하세요" required autocomplete="re_userPW" autofocus/></label></p>
      </p>
 
-     <div class = "button">
-       <button type = "submit" class = "loginbutton">로그인</button>
-       <a href = "signup.html">
-            <button type = "button" class="signupbutton">회원가입</button>
-       </a>
-     </div>
+     <footer>
+      <div class = "button">
+        <button type = "submit" class = "loginbutton">로그인</button>
+        <a href = "signup.html">
+             <button type = "button" class="signupbutton">회원가입</button>
+        </a>
+      </div>
+     </footer>
 
      </form>
     
     </div>
 
-    <footer>
-      <div class = "footer"></div>
-    </footer>
 
   </body>
 </html>
