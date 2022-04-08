@@ -1,5 +1,4 @@
 /*기본 너비*/
-
 *{
     max-width: 1020px;
     margin: auto;
@@ -7,6 +6,7 @@
 
 /*body*/
 body{
+    width: 1020px;
     border: 0.5em outset rgb(83, 83, 83);
     border-style: dotted;
     background-color: rgb(136, 136, 136);
@@ -88,17 +88,19 @@ p{
 
 /*index.html - items table*/
 
+table{
+    margin-bottom: 100px;
+    padding: 0px;
+}
 th{
     width: 400px;
     height: 400px;
-    margin-bottom: 200px;
 }
 image{
     width: 200px;
     height: 200px;
 }
 .item1, .item2{
-    display: inline-block;
     transition: all ease 1s;
 }
 
@@ -107,8 +109,7 @@ image{
     transform: rotate(360deg);
 }
 .item2:hover{
-    /*scale 바꿔야됨*/
-    transform: scale(1.75);
+    transform: scale(1.77);
 }
 
 /*footer*/
