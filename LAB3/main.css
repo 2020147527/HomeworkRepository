@@ -1,0 +1,145 @@
+/*기본 너비*/
+
+*{
+    width: 1020px;
+    max-width: 1020px;
+    margin: auto;
+}
+
+/*body*/
+body{
+    border: 0.5em outset rgb(83, 83, 83);
+    border-style: dotted;
+    background-color: rgb(136, 136, 136);
+    font-size: 17px;
+    text-align: center;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header{
+    padding-bottom: 100px;
+}
+
+/*header-index.html*/
+.mainheader{
+    animation-name: movingimage;
+    animation-duration: 2s;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes movingimage{
+    0% {margin-left: 100%;}
+    100% {margin-left: 0%;}
+}
+
+/*header-전체 h1 형식*/
+h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Times New Roman', serif;
+    color: rgb(60, 60, 60);
+}
+
+/*header-nav*/
+a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 17px;
+}
+
+.now{
+    text-decoration: overline;
+}
+
+/*login.html, signup.html - inputs*/
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input{
+    text-align: center;
+    width: 50%;
+    line-height: 20px;
+    background: transparent;
+    border-radius: 20%;
+    border-left: none; border-right: none; border-top: none;
+    border-color: rgb(60, 60, 60);
+}
+
+p{
+    text-align: center;
+    padding-bottom:20px;
+    padding-top: 10px;
+    height: 15px;
+    margin: 0;
+
+}
+
+/*index.html - items*/
+.itemborder{
+    display: inline-block;
+    /*안됨
+    border: solid, #000000;
+    border-width: 0 1px;
+    */
+    padding: 10px;
+    background-color: aliceblue;
+}
+.item{
+    display: inline-block;
+    transition: all ease 1s;
+    padding: 50px;
+    /*안됨
+    border: solid, #000000;
+    border-width: 0 1px;
+    */
+}
+#item1:hover{
+    transform: rotate(360deg);
+}
+#item2:hover{
+    /*scale 바꿔야됨*/
+    transform: scale(1.2);
+}
+
+/*footer*/
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*footer-buttons: signup, login, cancle*/
+.signupbutton{
+    width: auto;
+    background-color: rgb(70, 70, 70);
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.loginbutton{
+    width: auto;
+    background-color: rgb(90, 90, 90);
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.canclebutton{
+    width: auto;
+    background-color: rgb(90, 90, 90);
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+
