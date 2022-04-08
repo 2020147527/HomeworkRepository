@@ -88,20 +88,24 @@ p{
 
 /*index.html - items table*/
 
-table{
+table.item{
     margin-bottom: 100px;
     padding: 0px;
+    border: none;
+    border-collapse: collapse;
 }
 th{
+    border: rgb(60, 60, 60) solid 1px;
     width: 400px;
     height: 400px;
 }
-image{
+img{
     width: 200px;
     height: 200px;
 }
 .item1, .item2{
     transition: all ease 1s;
+    text-align: center;
 }
 
 /*item 애니메이션*/
@@ -109,7 +113,7 @@ image{
     transform: rotate(360deg);
 }
 .item2:hover{
-    transform: scale(1.77);
+    transform: scale(2);
 }
 
 /*footer*/
