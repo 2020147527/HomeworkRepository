@@ -1,0 +1,226 @@
+/*기본 너비*/
+*{
+    margin: auto;
+}
+
+/*미디어 쿼리*/
+@media (max-width:480px){
+    .navheader{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .maincontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*index.html - items*/
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*section1*/
+    .group1, .group2{
+        display: flex;
+        flex-direction: column;
+    }
+    .item1,.item2,.item3,.item4{
+        flex-direction: row;
+        border: 0.5px solid rgb(60, 60, 60);
+        width: 150px;
+        height: 150px;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+    /*section2*/
+
+}
+
+@media (min-width:481px) and (max-width: 800px){
+    .navheader{
+        display: flex;
+        flex-direction: column;
+    }
+    .maincontent{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    /*index.html - items*/
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*section1*/
+    .group1, .group2{
+        display: flex;
+        flex-direction: row;
+    }
+    .item1,.item2,.item3,.item4{
+        flex-direction: row;
+        border: 0.5px solid rgb(60, 60, 60);
+        width: 150px;
+        height: 150px;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+    /*section2*/
+
+
+}
+
+@media (min-width:801px){
+    .navheader{
+        display: flex;
+        flex-direction: row;
+    }
+    .maincontent{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*index.html - items*/
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*section1*/
+    .group1, .group2{
+        display: flex;
+        flex-direction: row;
+    }
+    .item1,.item2,.item3,.item4{
+        flex-direction: row;
+        border: 0.5px solid rgb(60, 60, 60);
+        width: 150px;
+        height: 150px;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+    /*section2*/
+
+}
+
+
+/*body*/
+body{
+    border: 0.5em solid rgb(83, 83, 83);
+    border-style: dotted;
+    background-color: rgb(136, 136, 136);
+    font-size: 17px;
+    text-align: center;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header{
+    padding-bottom: 100px;
+}
+
+
+/*header-전체 h1 형식*/
+h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Times New Roman', serif;
+    color: rgb(60, 60, 60);
+}
+
+/*header-nav*/
+.navheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.now,.tologin,.tosignup,.tomain{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-size: 17px;
+}
+
+.now{
+    text-decoration: overline;
+}
+
+/*login.html, signup.html - inputs*/
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input{
+    text-align: center;
+    width: 50%;
+    line-height: 20px;
+    background: transparent;
+    border-radius: 20%;
+    border-left: none; border-right: none; border-top: none;
+    border-color: rgb(60, 60, 60);
+}
+
+p{
+    text-align: center;
+    padding-bottom:20px;
+    padding-top: 10px;
+    height: 15px;
+    margin: 0;
+
+}
+
+
+/*footer*/
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*footer-buttons: signup, login, cancle*/
+.signupbutton{
+    width: auto;
+    background-color: rgb(70, 70, 70);
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.loginbutton{
+    width: auto;
+    background-color: rgb(90, 90, 90);
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.canclebutton{
+    width: auto;
+    background-color: rgb(90, 90, 90);
+    font-size: 20px;
+    padding: 2px;
+    margin: 5px;
+}
+
