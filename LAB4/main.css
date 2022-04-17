@@ -14,8 +14,9 @@
     .maincontent{
         display: flex;
         flex-direction: column;
+        border-top: 5px solid rgb(60, 60, 60);
+        padding-top: 20px;
     }
-
     /*index.html - items*/
     .items{
         display: flex;
@@ -23,6 +24,9 @@
     }
 
     /*section1*/
+    .itemstitle{
+        padding-bottom: 10px;
+    }
     .group1, .group2{
         display: flex;
         flex-direction: column;
@@ -32,6 +36,7 @@
         border: 0.5px solid rgb(60, 60, 60);
         width: 150px;
         height: 150px;
+        padding-top: 25px;
     }
 
     img{
@@ -40,6 +45,14 @@
     }
 
     /*section2*/
+    .introtitle{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .intro{
+        border-top: 5px solid rgb(60, 60, 60);
+        padding-top: 20px;
+    }
 
 }
 
@@ -51,6 +64,8 @@
     .maincontent{
         display: flex;
         flex-direction: column; 
+        border-top: 5px solid rgb(60, 60, 60);
+        padding-top: 20px;
     }
 
     /*index.html - items*/
@@ -60,6 +75,9 @@
     }
 
     /*section1*/
+    .itemstitle{
+        padding-bottom: 10px;
+    }
     .group1, .group2{
         display: flex;
         flex-direction: row;
@@ -69,6 +87,7 @@
         border: 0.5px solid rgb(60, 60, 60);
         width: 150px;
         height: 150px;
+        padding-top: 25px;
     }
 
     img{
@@ -77,7 +96,14 @@
     }
 
     /*section2*/
-
+    .introtitle{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .intro{
+        border-top: 5px solid rgb(60, 60, 60);
+        padding-top: 20px;
+    }
 
 }
 
@@ -89,6 +115,8 @@
     .maincontent{
         display: flex;
         flex-direction: row;
+        border-top: 5px solid rgb(60, 60, 60);
+        padding-top: 20px;
     }
 
     /*index.html - items*/
@@ -98,6 +126,9 @@
     }
 
     /*section1*/
+    .itemstitle{
+        padding-bottom: 10px;
+    }
     .group1, .group2{
         display: flex;
         flex-direction: row;
@@ -107,6 +138,7 @@
         border: 0.5px solid rgb(60, 60, 60);
         width: 150px;
         height: 150px;
+        padding-top: 25px;
     }
 
     img{
@@ -115,7 +147,14 @@
     }
 
     /*section2*/
-
+    .introtitle{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .intro{
+        border-top: 5px solid rgb(60, 60, 60);
+        padding-top: 20px;
+    }
 }
 
 
