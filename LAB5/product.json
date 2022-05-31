@@ -1,0 +1,26 @@
+[
+    {
+        "type": "floral", "name": "gucci bloom",  "price": "145000", "img": "floral_gucci.png"
+    },
+    {
+        "type": "floral", "name": "byredo latulipe", "price": "240000", "img": "floral_byredo.png"
+    },
+    {
+        "type": "floral", "name": "kenzo flower by kenzo", "price": "72000", "img": "floral_kenzo.png"
+    },
+    {
+        "type": "musk", "name": "kiehl's original musk", "price": "75000", "img": "musk_kiehl's.jpeg"
+    },
+    {
+        "type": "musk", "name": "thebodyshop white musk", "price": "39500", "img": "musk_thebodyshop.jpeg"
+    },
+    {
+        "type": "woodie", "name": "diptyque tamdao", "price": "220000", "img": "woodie_diptyque.jpeg"
+    },
+    {
+        "type": "woodie", "name": "lelabo santal33", "price": "253000", "img": "woodie_lelabo.png"
+    },
+    {
+        "type": "woodie", "name": "tomford oudwood", "price": "300000", "img": "woodie_tomford.jpg"
+    }
+]

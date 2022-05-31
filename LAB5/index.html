@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> E-commerce main page </title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+
+    <body>
+        <header>            
+            <div class='mainheader'>
+                <h1>Welcome to Easy Perfume</h1>
+            </div>
+            <nav>
+                <div class="navheader">
+                    <a href = "index.html" class = "now" >mainpage</a>
+                    <a href = "login.html" class = "tologin" >login</a>
+                    <a href = "signup.html" class = "tosignup">signup</a>
+                </div>
+            </nav>
+        </header>
+
+        <!--아이템들-->
+        <div class="Aside">
+            <h2 class="maintitle">perfumes</h2>
+            <aside>
+                <div class="Filter">
+                    <label for="filter">Filter:</label>
+                    <select id="filter">
+                        <option selected>All</option>
+                        <option>Floral</option>
+                        <option>Musk</option>
+                        <option>Woodie</option>
+                    </select>
+                </div>
+                <div class="keyword search">
+                    <label>Search: <input name="search" type="text"/></label>
+                    <button id="searchButton">search</button>
+                </div>
+            </aside>
+            <main>
+
+            </main>
+        </div>
+
+        <script src="script.js"></script>
+
+        <footer>
+        
+        </footer>
+    </body>
+</html>
